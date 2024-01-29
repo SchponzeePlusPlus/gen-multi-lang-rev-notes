@@ -1,6 +1,9 @@
-// C Notes
+// C NOTES
 
-int main()
+//	KEYWORDS
+
+//		Register
+int register_main()
 {
 /*
 	register keyword ... CPU
@@ -15,3 +18,19 @@ int main()
 
 	return 0;
 )
+
+//	ARRAYS
+
+/*
+	https://www.geeksforgeeks.org/c-arrays/
+*/
+
+//		C Array Declaration
+
+data_type array_name [size];
+
+// data_type array_name [size1] [size2]...[sizeN];
+
+//		C Array Initialization
+
+//		C Array Initialization with Declaration
