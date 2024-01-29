@@ -34,3 +34,5 @@ data_type array_name [size];
 //		C Array Initialization
 
 //		C Array Initialization with Declaration
+
+// data_type array_name [size] = {value1, value2, ... valueN};
