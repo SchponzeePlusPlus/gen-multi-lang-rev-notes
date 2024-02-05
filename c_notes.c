@@ -54,14 +54,36 @@ int register_main()
 //		short
 //		signed
 //		sizeof
+/*
+	sizeof is a keyword that gets the size of an expression, (variables, arrays, pointers, etc.) in bytes.
+*/
 //		static
+/*
+	The static keyword is used to create static variables. A static variable is not limited by a scope and can be used throughout the program. It’s value is preserved even after it’s  scope.
+*/
 //		struct
+/*
+	The struct keyword in C programming language is used to declare a structure. A structure is a list of variables, (they can be of different data types), which are grouped together under one data type.
+*/
 //		switch
 //		typedef
+/*
+	The typedef keyword in C programming language is used to define a data type with a new name in the program. typedef keyword is used to make our code more readable.
+*/
 //		union
+/*
+	The union is a user-defined data type. All data members which are declared under the union keyword share the same memory location.
+*/
 //		unsigned
 //		void
+/*
+	The void keyword means nothing i.e, NULL value. When the function return type is used as the void, the keyword void specifies that it has no return value.
+*/
 //		volatile
+/*
+	The volatile keyword is used to create volatile objects.
+ 	Objects which are declared volatile are omitted from optimization as their values can be changed by code outside the scope of the current code at any point in time.
+*/
 //		while
 
 //	OPERATORS
@@ -74,16 +96,10 @@ int register_main()
 */
 //		unsigned short int 
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier
+	32-bit GCC compiler Memory (bytes): 2
+	32-bit GCC compiler Range: 0 to 65,535
+	32-bit GCC compiler Format Specifier: %hu
 */
-2  
-
-0 to 65,535
-
-%hu
-
 //		unsigned int 
 /*
 	32-bit GCC compiler Memory (bytes): 4
@@ -92,87 +108,46 @@ int register_main()
 */
 //		long int 
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier
+	32-bit GCC compiler Memory (bytes): 4 
+	32-bit GCC compiler Range: -2,147,483,648 to 2,147,483,647
+	32-bit GCC compiler Format Specifier: %ld
 */
-4 
-
--2,147,483,648 to 2,147,483,647
-
-%ld 
-
 //		unsigned long int
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier
+	32-bit GCC compiler Memory (bytes): 4
+	32-bit GCC compiler Range: 0 to 4,294,967,295
+	32-bit GCC compiler Format Specifier: %lu
 */
-4 
-
-0 to 4,294,967,295 
-
-%lu
-
 //		long long int  
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier
+	32-bit GCC compiler Memory (bytes): 8
+	32-bit GCC compiler Range: -(2^63) to (2^63)-1
+	32-bit GCC compiler Format Specifier: %lld
 */
-8
-
--(2^63) to (2^63)-1 
-
-%lld 
-
 //		unsigned long long int
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier
+	32-bit GCC compiler Memory (bytes): 8
+	32-bit GCC compiler Range: 0 to 18,446,744,073,709,551,615
+	32-bit GCC compiler Format Specifier: %llu
 */
-8
-
-0 to 18,446,744,073,709,551,615
-
-%llu 
-
 //		signed char
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier:
+	32-bit GCC compiler Memory (bytes): 1
+	32-bit GCC compiler Range: -128 to 127
+	32-bit GCC compiler Format Specifier: %c
 */
-1
-
--128 to 127 
-
-%c
-
 //		unsigned char 
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier:
+	32-bit GCC compiler Memory (bytes): 1
+	32-bit GCC compiler Range: 0 to 255
+	32-bit GCC compiler Format Specifier: %c
 */
-1
-
-0 to 255 
-
-%c
-
 //		long double
 /*
-	32-bit GCC compiler Memory (bytes): 
-	32-bit GCC compiler Range: 
-	32-bit GCC compiler Format Specifier:
-*/
-16
-
-3.4E-4932 to 1.1E+4932
-
-%Lf 
+	32-bit GCC compiler Memory (bytes): 16
+	32-bit GCC compiler Range: 3.4E-4932 to 1.1E+4932
+	32-bit GCC compiler Format Specifier: %Lf
+*/ 
 //	ARRAYS
 
 /*
@@ -181,15 +156,15 @@ int register_main()
 
 //		C Array Declaration
 
-data_type array_name [size];
+//			data_type array_name [size];
 
-// data_type array_name [size1] [size2]...[sizeN];
+// 			data_type array_name [size1] [size2]...[sizeN];
 
 //		C Array Initialization
 
 //		C Array Initialization with Declaration
 
-// data_type array_name [size] = {value1, value2, ... valueN};
+// 			data_type array_name [size] = {value1, value2, ... valueN};
 
 //	DATA STRUCTURES
 
