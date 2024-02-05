@@ -66,7 +66,113 @@ int register_main()
 
 //	OPERATORS
 //	DATA TYPES (BASIC)
+//		short int
+/*
+	32-bit GCC compiler Memory (bytes): 2
+	32-bit GCC compiler Range: -32,768 to 32,767
+	32-bit GCC compiler Format Specifier: %hd
+*/
+//		unsigned short int 
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier
+*/
+2  
 
+0 to 65,535
+
+%hu
+
+//		unsigned int 
+/*
+	32-bit GCC compiler Memory (bytes): 4
+	32-bit GCC compiler Range: 0 to 4,294,967,295
+	32-bit GCC compiler Format Specifier: %u
+*/
+//		long int 
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier
+*/
+4 
+
+-2,147,483,648 to 2,147,483,647
+
+%ld 
+
+//		unsigned long int
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier
+*/
+4 
+
+0 to 4,294,967,295 
+
+%lu
+
+//		long long int  
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier
+*/
+8
+
+-(2^63) to (2^63)-1 
+
+%lld 
+
+//		unsigned long long int
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier
+*/
+8
+
+0 to 18,446,744,073,709,551,615
+
+%llu 
+
+//		signed char
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier:
+*/
+1
+
+-128 to 127 
+
+%c
+
+//		unsigned char 
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier:
+*/
+1
+
+0 to 255 
+
+%c
+
+//		long double
+/*
+	32-bit GCC compiler Memory (bytes): 
+	32-bit GCC compiler Range: 
+	32-bit GCC compiler Format Specifier:
+*/
+16
+
+3.4E-4932 to 1.1E+4932
+
+%Lf 
 //	ARRAYS
 
 /*
