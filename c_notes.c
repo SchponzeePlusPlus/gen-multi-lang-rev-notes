@@ -35,6 +35,7 @@
 //		int
 //		long
 //		register
+
 int register_main()
 {
 /*
@@ -86,7 +87,18 @@ int register_main()
 */
 //		while
 
+//		include
+
 //	OPERATORS
+//		Arrow (->)
+/*
+	https://www.geeksforgeeks.org/arrow-operator-in-c-c-with-examples/
+ 	An Arrow operator in C/C++ allows to access elements in Structures and Unions.
+  	It is used with a pointer variable pointing to a structure or union.
+	The arrow operator is formed by using a minus (-) sign, followed by the greater (>) than symbol
+*/
+//			(pointer_name)->(variable_name)
+
 //	DATA TYPES (BASIC)
 //		short int
 /*
@@ -148,6 +160,14 @@ int register_main()
 	32-bit GCC compiler Range: 3.4E-4932 to 1.1E+4932
 	32-bit GCC compiler Format Specifier: %Lf
 */ 
+//	Libraries
+//		stdio.h
+#include <stdio.h>
+/*
+	https://www.tutorialspoint.com/c_standard_library/stdio_h.htm
+	Defines three variable types, several macros, and various functions for performing input and output.
+*/
+#include <stdlib.h>
 //	ARRAYS
 
 /*
@@ -167,6 +187,25 @@ int register_main()
 // 			data_type array_name [size] = {value1, value2, ... valueN};
 
 //	DATA STRUCTURES
+//		Linked Lists
+//			Single Linked-Lists
+
+//	A Single linked list node:
+/*
+struct Node { 
+    int data; 
+    struct Node* next; 
+};
+*/
+//				(LLTSNS)
+struct LinkdLstTypSglNodeStrct
+{
+	int data;
+	struct LinkdLstTypSglNodeStrct* next; 
+};
+
+//			Double Linked-Lists
+//			Circular Linked-Lists
 
 //	PROGRAM STRUCTURE
 //		Driver Code
